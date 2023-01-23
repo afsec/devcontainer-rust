@@ -11,7 +11,7 @@ wget https://github.com/casey/just/releases/download/1.12.0/just-1.12.0-x86_64-u
 # Install Difftastic (`difft`)
 wget https://github.com/Wilfred/difftastic/releases/download/0.42.0/difft-x86_64-unknown-linux-gnu.tar.gz -O - | zcat - | tar xvf - difft
 
-# Install Wtachexec (`watchexec`)
+# Install Watchexec (`watchexec`)
 wget https://github.com/watchexec/watchexec/releases/download/v1.21.0/watchexec-1.21.0-x86_64-unknown-linux-musl.tar.xz -O - | zcat - | tar xvf - watchexec
 
 # Install Dfinity candid (`didc`)
