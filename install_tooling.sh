@@ -11,10 +11,14 @@ wget https://github.com/casey/just/releases/download/1.12.0/just-1.12.0-x86_64-u
 # Install Difftastic (`difft`)
 wget https://github.com/Wilfred/difftastic/releases/download/0.42.0/difft-x86_64-unknown-linux-gnu.tar.gz -O - | zcat - | tar xvf - difft
 
+# Install Wtachexec (`watchexec`)
+wget https://github.com/watchexec/watchexec/releases/download/v1.21.0/watchexec-1.21.0-x86_64-unknown-linux-musl.tar.xz -O - | zcat - | tar xvf - watchexec
+
 # Install Dfinity candid (`didc`)
 wget https://github.com/dfinity/candid/releases/download/2022-11-17/didc-linux64
 chmod +x didc-linux64
 mv didc-linux64 didc
+
 
 # Install Cargo audit (`cargo-audit`)
 wget https://github.com/rustsec/rustsec/releases/download/cargo-audit/v0.17.4/cargo-audit-x86_64-unknown-linux-musl-v0.17.4.tgz -O - | zcat - | tar xvf - "cargo-audit-x86_64-unknown-linux-musl-v0.17.4/cargo-audit"
