@@ -11,7 +11,7 @@ wget https://github.com/casey/just/releases/download/1.12.0/just-1.12.0-x86_64-u
 # Install Difftastic (`difft`)
 wget https://github.com/Wilfred/difftastic/releases/download/0.42.0/difft-x86_64-unknown-linux-gnu.tar.gz -O - | zcat - | tar xvf - difft
 
-# Install Dfinity candid (`didcv`)
+# Install Dfinity candid (`didc`)
 wget https://github.com/dfinity/candid/releases/download/2022-11-17/didc-linux64
 chmod +x didc-linux64
 mv didc-linux64 didc
