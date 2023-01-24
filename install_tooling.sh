@@ -13,6 +13,8 @@ wget https://github.com/Wilfred/difftastic/releases/download/0.42.0/difft-x86_64
 
 # Install Watchexec (`watchexec`)
 wget https://github.com/watchexec/watchexec/releases/download/v1.21.0/watchexec-1.21.0-x86_64-unknown-linux-musl.tar.xz -O -  | tar -Jxvf - "watchexec-1.21.0-x86_64-unknown-linux-musl/watchexec"
+mv ./watchexec-1.21.0-x86_64-unknown-linux-musl/watchexec ./
+rm -rf watchexec-1.21.0-x86_64-unknown-linux-musl
 
 # Install Dfinity candid (`didc`)
 wget https://github.com/dfinity/candid/releases/download/2022-11-17/didc-linux64
